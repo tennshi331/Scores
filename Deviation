@@ -1,7 +1,15 @@
 public class Deviation{
   public static void main(String[] args){
-    for(int i = 0; i < args.length; i++){
-      Score[] score
+    for(int i = 0; i < args.length; i = i + 2){
+      Score[] score = {
+        new Score(args[i],args[i+1],"")
+      }
+    int sum = 0;
+    double sd = 0.0;
+    for(int i = 0; i < score.length; i++){
+      sum += score[i];
     }
+    double average = sum / score.length;
+    
   }
 }
