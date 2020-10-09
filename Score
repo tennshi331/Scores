@@ -1,4 +1,4 @@
-public class score {
+public class Score {
   // declaration of fields
   String name;
   int rawscore;
