@@ -26,7 +26,7 @@ public class Deviation{
     // caluculate deviation and express
     for(int i = 0; i < score.length; i++){
       score[i].deviation = (score[i].rawscore - average) / sd * 10 + 50;
-      System.out.println(score[i].name + "の偏差値は" +  score[i].deviation　+　"です。");
+      System.out.println(score[i].name + "の偏差値は" +  score[i].deviation + "です。");
     }
   }
 }
