@@ -1,5 +1,6 @@
 public class Deviation{
 	public static void main(String[] args){
+		// create instances
 		int[] var = new int[args.length];
 		Score[] score = new Score[args.length];
 		for(int i = 0; i < args.length; i = i + 2){
@@ -27,7 +28,7 @@ public class Deviation{
 		// calculate deviation and express
 		for(int i = 0; i < score.length; i++){
 			score[i].deviation = (score[i].rawscore - average) / sd * 10 + 50;
-			System.out.println(score[i].name + "の偏差値は" +  score[i].deviation + "です。");
+			System.out.println(score[i].name + "の偏差値は" + score[i].deviation + "です。");
 			}
 		}
 	}
