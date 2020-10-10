@@ -4,7 +4,7 @@ public class Score {
   int rawscore;
   double deviation;
   // declaration of constructor
-  public score(String name, int rawscore,double deviation){
+  public Score(String name, int rawscore,double deviation){
     this.name = name;
     this.rawscore = rawscore;
     this.deviation = deviation;
