@@ -1,7 +1,7 @@
 public class Deviation{
 	public static void main(String[] args){
 		// create instances
-		int[] var = new int[args.length/2]; //素点の配列の要素数は8だよね！!
+		int[] var = new int[args.length/2]; //素点の配列の要素数は8だよね！!半分にしよう!!
 		Score[] score = new Score[args.length/2]; //同じくだよね!!argsの長さは16もあるよね!!
 		for(int i = 0; i < args.length; i = i + 2){
 			var[i/2] = Integer.parseInt(args[i+1]); //var[i+1]だと奇数インデックスにだけ値が入ってるキショい配列になるよね!!
