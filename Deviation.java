@@ -10,7 +10,7 @@ public class Deviation{
 
 		// calculate average
 		//今回のエラーの核はここだね！！scoreをargs.length の長さで定義したせいでこのループが16回まわってたよね！!
-		//nullPointerExceptionは配列内で指定されたインデックスに要素が存在しないよ〜><ってやつだね！！エラー名でググろう
+		//nullPointerExceptionは配列内で指定されたインデックスに要素が存在しないよ〜><ってやつだね！！エラー名でググろう!!
 		int sum = 0;
 		for(int i = 0; i < score.length; i++){
 			sum += score[i].rawscore;
